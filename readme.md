@@ -42,9 +42,13 @@ docker compose up -d
 docker compose down 
 ```
 
-Migrate Prisma Schemas and Seeds
+Generate Prisma, Migrate and Seed
 ```bash
+pnpm run prisma:generate
+
 pnpm run migrate:dev
+
+pnpm run seed
 ```
 to run the server
 ```bash
