@@ -13,6 +13,11 @@ Updating Submodules
 git submodule update --remote
 ```
 
+Pushing changes
+```bash
+git push -u origin master
+```
+
 &nbsp;
 ---
 
